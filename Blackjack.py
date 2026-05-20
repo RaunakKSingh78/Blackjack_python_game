@@ -4,8 +4,6 @@ I am making a Blackjack game
 We need to make cards and use random function and
 assign a value to the cards and then compare it with 21.
 
-I can use dictionary for assigning each card or use OOP to make cards then red or black,
-then the four types of cards and then provide it with another list of objects of cards[such as ace,jack etc].
 """
 
 import random
@@ -215,5 +213,3 @@ class Game:
 
 game = Game()
 game.play()
-
-print(help())
